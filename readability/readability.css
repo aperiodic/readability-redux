@@ -51,7 +51,7 @@ span.version {display:none;}
 .style-newspaper {font-family:"Adobe Caslon Pro", Caslon, "Times New Roman", Times, serif;background:#fbfbfb;color:#080000;}
 .style-newspaper h1 {text-transform:capitalize;font-family:"Adobe Caslon Pro", Caslon, Georgia, "Times New Roman", Times, serif;}
 .style-newspaper #readInner a {color:#0924e1;}
-.style-manuscript {font-family:"Adobe Garamond Pro", Garamond, Times, serif;background:#faf8f2;color:#321e15;}
+.style-manuscript {font-family:"Adobe Garamond Pro", Garamond, Baskerville, Times, serif;background:#faf8f2;color:#321e15;}
 .style-manuscript #readInner a {color:#1c4268;}
 .style-novel {font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;background:#faf8f0;color:#1d1916;}
 .style-novel #readInner a {color:#1856ba;}
