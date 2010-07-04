@@ -3,6 +3,7 @@
 #readability-logo,#arc90-logo,.footer-twitterLink,#readTools a,a.rdbTK-powered span{background-color:transparent!important;background-image:url(http://lab.arc90.com/experiments/readability/images/sprite-readability.png)!important;background-repeat:no-repeat!important;}
 #readOverlay {display:block;position:absolute;top:0;left:0;width:100%;}
 #readInner {line-height:1.4em;max-width:800px;margin:1em auto;}
+#readInner p {text-rendering: optimizeLegibility;}
 #readInner a {color:#039;text-decoration:none;}
 #readInner a:hover {text-decoration:underline;}
 #readInner img {float:left;clear:both;margin: 0 12px 12px 0;}
@@ -47,10 +48,12 @@ span.version {display:none;}
 .size-large {font-size:22px;}
 .size-x-large {font-size:28px;}
 /* Style */
-.style-newspaper {font-family:"Times New Roman", Times, serif;background:#fbfbfb;color:#080000;}
-.style-newspaper h1 {text-transform:capitalize;font-family:Georgia, "Times New Roman", Times, serif;}
+.style-newspaper {font-family:"Adobe Caslon Pro", Caslon, "Times New Roman", Times, serif;background:#fbfbfb;color:#080000;}
+.style-newspaper h1 {text-transform:capitalize;font-family:"Adobe Caslon Pro", Caslon, Georgia, "Times New Roman", Times, serif;}
 .style-newspaper #readInner a {color:#0924e1;}
-.style-novel {font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;background:#f4eed9;color:#1d1916;}
+.style-manuscript {font-family:"Adobe Garamond Pro", Garamond, Times, serif;background:#faf8f2;color:#321e15;}
+.style-manuscript #readInner a {color:#1c4268;}
+.style-novel {font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;background:#faf8f0;color:#1d1916;}
 .style-novel #readInner a {color:#1856ba;}
 .style-ebook {font-family:Arial, Helvetica, sans-serif;background:#edebe8;color:#2c2d32;}
 .style-ebook #readInner a {color:#187dc9;}
